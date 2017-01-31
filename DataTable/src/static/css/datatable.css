@@ -1,0 +1,23 @@
+.data_table {
+  border: none;
+  width: 100%;
+  margin-top: .3em;
+}
+
+.data_table tbody tr, .data_table thead tr {
+  border-width: 5px;
+  border-top: 5px solid #FFF;
+  border-bottom: 5px solid #FFF;
+  border-radius: 2px;
+}
+
+.data_table_filter_row, .data_table tr th , .data_table tr td {
+  background-color: #e4e4e4;
+  padding: 5px 15px 5px 15px;
+}
+
+.data_table_filter_row span {
+  margin-right: 1em;
+  font-weight: bold;
+  color: #4DA6FF;
+}
