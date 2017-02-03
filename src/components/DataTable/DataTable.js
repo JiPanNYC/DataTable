@@ -42,7 +42,7 @@ class SortHeaderCell extends React.Component {
   }
 }
 
-export default class NewDataTable extends Component {
+export default class DataTable extends Component {
   constructor(props) {
     super(props);
     this.state = {
